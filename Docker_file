@@ -1,0 +1,4 @@
+# Use the official Ubuntu image from the Docker Hub as a base image
+FROM ubuntu:latest
+WORKDIR /home
+CMD ["echo","hello"]
