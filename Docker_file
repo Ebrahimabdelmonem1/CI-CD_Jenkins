@@ -1,4 +1,4 @@
-# Use the official Ubuntu image from the Docker Hub as a base image
-FROM ubuntu:latest
+# Use the official alpine image from the Docker Hub 
+FROM alpine
 WORKDIR /home
 CMD ["echo","hello"]
