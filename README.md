@@ -89,9 +89,3 @@ docker rmi <image_id>
 
 License
 This project is licensed under the MIT License - see the LICENSE file for details. """
-
-Write the content to a README file
-file_path_jenkins = '/mnt/data/CI_CD_Jenkins_Project_README.txt' with open(file_path_jenkins, 'w') as file: file.write(ci_cd_jenkins_content)
-
-file_path_jenkins
-
